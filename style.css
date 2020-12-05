@@ -1,0 +1,40 @@
+.page-container {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.max-center {
+  max-width: 584px;
+  margin: auto;
+}
+
+.space-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-lt {
+  text-decoration: line-through;
+}
+
+.c-btn {
+  height: auto;
+  width: 16px;
+}
+
+.btn-outline-danger:hover {
+  background-color: #faa;
+}
+
+li:last-child {
+  margin-bottom: 36px;
+}
+
+#footer {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+}
